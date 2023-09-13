@@ -1,1 +1,13 @@
+pipeline{
+   agent any
+   stages {
+      stage("biuld"){
+           steps{
+              //Hay un pipeline no declarativo que es más robusto, pipeline Scripted sintaxis grovy
+              echo 'building'
+           }
+      
+      }
+   }
 
+}
